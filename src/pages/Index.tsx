@@ -4,6 +4,8 @@ import Mission from "@/components/Mission";
 import Services from "@/components/Services";
 import CodeOfConduct from "@/components/CodeOfConduct";
 import Contact from "@/components/Contact";
+import Gallery from "@/components/Gallery";
+import ChatBot from "@/components/ChatBot";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -16,8 +18,10 @@ const Index = () => {
         <Services />
         <CodeOfConduct />
         <Contact />
+        <Gallery />
       </main>
       <Footer />
+      <ChatBot />
     </div>
   );
 };

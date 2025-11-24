@@ -1,0 +1,4 @@
+project_id = "twayuatrfothowgkzkxu"
+
+[functions.temple-chat]
+verify_jwt = false
