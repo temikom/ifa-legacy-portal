@@ -50,12 +50,6 @@ const Gallery = () => {
             </Card>
           ))}
         </div>
-
-        <div className="text-center mt-12">
-          <p className="text-muted-foreground italic">
-            Upload your temple photos to showcase your sacred space and community
-          </p>
-        </div>
       </div>
 
       {/* Image Viewer Dialog */}
