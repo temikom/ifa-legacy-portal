@@ -2,18 +2,23 @@ import { useState } from "react";
 import { Card } from "@/components/ui/card";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
 import { X } from "lucide-react";
+import ifa3456 from "@/assets/gallery/ifa3456.jpg";
+import idw21 from "@/assets/gallery/idw21.jpg";
+import ida32 from "@/assets/gallery/ida32.jpg";
+import ifa223 from "@/assets/gallery/ifa223.jpg";
+import ifa122 from "@/assets/gallery/ifa122.jpg";
+import ifa from "@/assets/gallery/ifa.jpg";
 
 const Gallery = () => {
   const [selectedImage, setSelectedImage] = useState<number | null>(null);
   
-  // Placeholder for images - user will upload their own
   const images = [
-    { id: 1, url: "/placeholder.svg", alt: "Temple ceremony" },
-    { id: 2, url: "/placeholder.svg", alt: "Divination session" },
-    { id: 3, url: "/placeholder.svg", alt: "Temple rituals" },
-    { id: 4, url: "/placeholder.svg", alt: "Herbal preparations" },
-    { id: 5, url: "/placeholder.svg", alt: "Temple gathering" },
-    { id: 6, url: "/placeholder.svg", alt: "Sacred space" },
+    { id: 1, url: ifa3456, alt: "Sacred Ifa figures" },
+    { id: 2, url: idw21, alt: "Traditional spiritual artifact" },
+    { id: 3, url: ida32, alt: "Ancient ceremonial mask" },
+    { id: 4, url: ifa223, alt: "Collection of spiritual sculptures" },
+    { id: 5, url: ifa122, alt: "Sacred ceremonial head" },
+    { id: 6, url: ifa, alt: "Traditional Ifa artifact" },
   ];
 
   return (
